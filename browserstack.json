@@ -1,0 +1,85 @@
+{
+  "auth": {
+    "username": "estebanbalvin_PF42DH",
+    "access_key": "cX89oKxG3pqmuYDdR12v"
+  },
+  "browsers": [
+   
+    {
+      "browser": "edge",
+      "os": "Windows 11",
+      "versions": [
+        "latest"
+      ]
+    },
+    {
+      "browser": "firefox",
+      "os": "Windows 11",
+      "versions": [
+        "latest"
+      ]
+    },
+    {
+      "browser": "firefox",
+      "os": "OS X Mojave",
+      "versions": [
+        "latest"
+      ]
+    },
+    {
+      "browser": "edge",
+      "os": "OS X Mojave",
+      "versions": [
+        "latest"
+      ]
+    },
+    {
+      "browser": "webkit",
+      "os": "OS X Monterey",
+      "versions": [
+        "latest"
+      ]
+    }
+   
+  ],
+  "run_settings": {
+    "specs": ["**/e2e/**.feature"],
+    "cypress_config_file": "./cypress.config.js",
+    "cypress_version": "12.5.1",
+    "project_name": "BrowserStack Examples",
+    "build_name": "browserstack-build-1",
+    "downloads": ["./cypress-image-diff-screenshots", "./cypress-image-diff-html-report"],
+    "exclude": [],
+    "parallels": "3",
+    "npm_dependencies": {
+      "cypress": "^12.5.1",
+      "cypress-cucumber-preprocessor": "^4.3.1",
+      "cypress-multi-reporters": "^1.6.2",
+      "cypress-xpath": "^2.0.1",
+      "mocha-junit-reporter": "^2.2.0",
+      "mochawesome": "^7.1.3",
+      "@babel/traverse": "^7.23.7",
+      "@percy/cli": "^1.26.0",
+      "@shelex/cypress-allure-plugin": "^2.40.0",
+      "@types/cypress": "^1.1.3",
+      "browserify-sign": "^4.2.2",
+      "browserstack-cypress-cli": "^1.28.0",
+      "cypress-each": "^1.13.3",
+      "cypress-image-diff-html-report": "^2.0.2",
+      "cypress-image-diff-js": "^2.1.3"
+    },
+    "package_config_options": {
+      "cypress-cucumber-preprocessor": {
+        "stepDefinitions": "cypress/support/step_definitions"
+      }
+    },
+    "headless": true
+  },
+  "connection_settings": {
+    "local": true,
+    "local_identifier": null,
+    "local_mode": null,
+    "local_config_file": null
+  },
+  "disable_usage_reporting": false
+}

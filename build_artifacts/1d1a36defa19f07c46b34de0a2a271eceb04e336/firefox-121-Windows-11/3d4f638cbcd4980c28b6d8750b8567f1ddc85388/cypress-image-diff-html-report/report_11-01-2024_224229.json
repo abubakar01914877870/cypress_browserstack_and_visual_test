@@ -1,0 +1,31 @@
+{
+  "total": 1,
+  "totalPassed": 1,
+  "totalFailed": 0,
+  "totalSuites": 1,
+  "suites": [
+    {
+      "name": "Visual_Test.spec.js",
+      "path": "cypress\\Visual test\\Visual_Test.spec.js",
+      "tests": [
+        {
+          "status": "pass",
+          "name": "Visual_Test.spec-google_chrome_download",
+          "percentage": 0.43824791985616335,
+          "failureThreshold": 0.6,
+          "specPath": "cypress\\Visual test\\Visual_Test.spec.js",
+          "specFilename": "Visual_Test.spec.js",
+          "baselinePath": "cypress-image-diff-screenshots\\baseline\\Visual_Test.spec-google_chrome_download.png",
+          "diffPath": "",
+          "comparisonPath": "cypress-image-diff-screenshots\\comparison\\Visual_Test.spec-google_chrome_download.png"
+        }
+      ]
+    }
+  ],
+  "startedAt": "2024-01-11T17:12:29.621Z",
+  "endedAt": "2024-01-11T17:12:41.345Z",
+  "duration": 11724,
+  "browserName": "firefox",
+  "browserVersion": "121.0",
+  "cypressVersion": "12.17.1"
+}

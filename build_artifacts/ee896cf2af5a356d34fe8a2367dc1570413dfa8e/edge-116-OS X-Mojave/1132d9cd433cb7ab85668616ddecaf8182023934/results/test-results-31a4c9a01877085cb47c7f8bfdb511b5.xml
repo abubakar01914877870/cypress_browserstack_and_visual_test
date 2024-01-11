@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.731" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-01-08T14:01:56" tests="0" file="cypress/e2e/e2e.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="E2e test - Download tests" timestamp="2024-01-08T14:01:56" tests="1" time="5.716" failures="0">
+    <testcase name="E2e test - Download tests Download Chrome from the hero&apos;s Homepage" time="5.674" classname="Download Chrome from the hero&apos;s Homepage">
+    </testcase>
+  </testsuite>
+</testsuites>

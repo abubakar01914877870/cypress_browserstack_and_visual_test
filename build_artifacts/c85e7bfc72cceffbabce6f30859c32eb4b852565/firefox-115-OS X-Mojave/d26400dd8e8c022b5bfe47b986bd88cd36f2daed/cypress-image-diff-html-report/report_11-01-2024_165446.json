@@ -1,0 +1,13 @@
+{
+  "total": 0,
+  "totalPassed": 0,
+  "totalFailed": 0,
+  "totalSuites": 0,
+  "suites": [],
+  "startedAt": "2024-01-11T16:54:46.928Z",
+  "endedAt": "2024-01-11T16:55:25.761Z",
+  "duration": 15781,
+  "browserName": "firefox",
+  "browserVersion": 115,
+  "cypressVersion": "12.17.1"
+}

@@ -1,0 +1,42 @@
+{
+  "total": 2,
+  "totalPassed": 2,
+  "totalFailed": 0,
+  "totalSuites": 1,
+  "suites": [
+    {
+      "name": "Visual_Test.spec.js",
+      "path": "cypress\\Visual test\\Visual_Test.spec.js",
+      "tests": [
+        {
+          "status": "pass",
+          "name": "Visual_Test.spec-google",
+          "percentage": 0.18966477604639,
+          "failureThreshold": 0.6,
+          "specPath": "cypress\\Visual test\\Visual_Test.spec.js",
+          "specFilename": "Visual_Test.spec.js",
+          "baselinePath": "cypress-image-diff-screenshots\\baseline\\Visual_Test.spec-google.png",
+          "diffPath": "",
+          "comparisonPath": "cypress-image-diff-screenshots\\comparison\\Visual_Test.spec-google.png"
+        },
+        {
+          "status": "pass",
+          "name": "Visual_Test.spec-google_chrome_download",
+          "percentage": 0.41038442667475666,
+          "failureThreshold": 0.6,
+          "specPath": "cypress\\Visual test\\Visual_Test.spec.js",
+          "specFilename": "Visual_Test.spec.js",
+          "baselinePath": "cypress-image-diff-screenshots\\baseline\\Visual_Test.spec-google_chrome_download.png",
+          "diffPath": "",
+          "comparisonPath": "cypress-image-diff-screenshots\\comparison\\Visual_Test.spec-google_chrome_download.png"
+        }
+      ]
+    }
+  ],
+  "startedAt": "2024-01-11T16:37:36.011Z",
+  "endedAt": "2024-01-11T16:38:26.476Z",
+  "duration": 37243,
+  "browserName": "edge",
+  "browserVersion": "120.0.2210.61",
+  "cypressVersion": "12.17.1"
+}
